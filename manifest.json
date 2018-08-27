@@ -1,0 +1,27 @@
+{
+  "name": "Ct Env Toggle",
+  "version": "1.0",
+  "description": "Changes from local to production urls (and viceversa)",
+  "permissions": ["tabs"],
+  "background": {
+    "scripts": ["js/background.js"],
+    "persistent": false
+  },
+  "commands": {
+    "toggle_env": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+U",
+        "windows": "Ctrl+Shift+U",
+        "mac": "Command+Shift+U"
+      },
+      "description": "Do the toggle"
+    }
+  },
+  "icons": {
+    "16": "images/get_started16.png",
+    "32": "images/get_started32.png",
+    "48": "images/get_started48.png",
+    "128": "images/get_started128.png"
+  },
+  "manifest_version": 2
+}
